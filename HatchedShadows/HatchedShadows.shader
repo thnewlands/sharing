@@ -1,7 +1,7 @@
 ﻿Shader "Custom/HatchedShadows" {
 	Properties {
 		_Color("Color", Color) = (1, 1, 1, 1)
-		_ShadowColor("Shadow Color", Color) = (0, 0, 0, 0)
+		//_ShadowColor("Shadow Color", Color) = (0, 0, 0, 0)
 		_MainTex("Albedo (RGB)", 2D) = "white" {}
 		_ShadowTex("Shadow (RGB)", 2D) = "white" {}
 	}
